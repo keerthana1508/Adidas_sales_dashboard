@@ -41,3 +41,74 @@ Certain states (e.g., Alaska) show anomalies — potentially new or niche market
 
 Interactive map shows coverage across North America and beyond.
 
+## Interview questions
+1. What is the importance of data visualization?
+Data visualization helps convert complex data into an understandable and visually appealing format. It makes it easier to:
+
+Spot trends and patterns.
+
+Communicate findings effectively.
+
+Support better decision-making.
+
+Reveal hidden insights quickly.
+
+2. When do you use a pie chart vs bar chart?
+Pie Chart:
+Used to show part-to-whole relationships, ideal for categorical data with few segments (2–5).
+
+Example: Market share by company.
+
+Bar Chart:
+Used to compare quantities across categories, especially when you have many categories or need exact comparisons.
+
+Example: Sales per region or product.
+
+3. How do you make visualizations more engaging?
+Use clear titles, labels, and legends.
+
+Highlight key points using color or annotations.
+
+Use interactive elements (in tools like Power BI or Tableau).
+
+Choose the right chart type for the data.
+
+Avoid clutter; focus on clarity and simplicity.
+
+4. What is data storytelling?
+Data storytelling is the practice of combining data, visuals, and narrative to effectively communicate insights and drive action. It helps guide the audience through the data to a conclusion or decision.
+
+5. How do you avoid misleading visualizations?
+Start axes at zero (especially for bar charts).
+
+Use proportional sizes in visuals (avoid 3D charts).
+
+Don’t cherry-pick data; present full context.
+
+Label charts clearly and avoid ambiguous color scales.
+
+Ensure accurate representation of trends over time.
+
+6. What are best practices in dashboard design?
+Keep it simple and focused on the audience’s goals.
+
+Group related visuals together.
+
+Use consistent colors, fonts, and formatting.
+
+Make KPIs prominent.
+
+Include filters or slicers for interactivity.
+
+Ensure responsiveness and good performance.
+
+7. What tools have you used for visualization?
+Some common tools I’ve used include:
+
+Power BI – For interactive business dashboards.
+
+Tableau – For advanced, visually rich dashboards.
+
+Matplotlib / Seaborn / Plotly (Python) – For coding-based custom visualizations.
+
+Excel – For quick charts and basic dashboards.
