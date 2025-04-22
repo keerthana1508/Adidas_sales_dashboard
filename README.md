@@ -1,123 +1,128 @@
-# 📊 Dashboard Summary: Adidas Quantity Analysis
+# 📊 Adidas Quantity Analysis Dashboard
+
 ## 🎯 Objective
-The dashboard provides a comprehensive analysis of Adidas sales performance across various dimensions including time, region, product type, retailer, and sales method. It is designed to assist stakeholders in identifying sales trends, regional performance, and profitability.
+The dashboard provides a comprehensive analysis of Adidas sales performance across various dimensions including **time, region, product type, retailer**, and **sales method**. It is designed to assist stakeholders in identifying:
+- Sales trends
+- Regional performance
+- Retailer impact
+- Product category performance
+- Profitability insights
+
+---
 
 ## 🧾 Key KPIs (Top Row Metrics)
 
-### KPI	Value	Insight
-Count of Retailer ID	3,019	Wide retailer network contributing to distribution.
-Sum of Units Sold	850K	High product movement indicating strong brand presence.
-Sum of Price per Unit	126.89K	Tracks pricing strategy; stable average price level.
-Sum of Total Sales	2,95,585.49K	Excellent total revenue generated.
-Sum of Operating Profit	1,07,988.30K	Strong profitability margin.
-Sum of Operating Margin	1.19K	Indicates operational efficiency and cost control.
-📅 Current Date/Time	22-04-2025 18:43:37	Ensures data is refreshed and report is timely.
-📈 Sales Trend Over Time
-Chart: Line graph (2020 to 2024)
+| KPI                         | Value         | Insight                                                            |
+|----------------------------|---------------|--------------------------------------------------------------------|
+| **Count of Retailer ID**   | 3,019         | Wide retailer network contributing to distribution.                |
+| **Sum of Units Sold**      | 850K          | High product movement indicating strong brand presence.            |
+| **Sum of Price per Unit**  | 126.89K       | Tracks pricing strategy; stable average price level.               |
+| **Sum of Total Sales**     | 295,585.49K   | Excellent total revenue generated.                                 |
+| **Sum of Operating Profit**| 107,988.30K   | Strong profitability margin.                                       |
+| **Sum of Operating Margin**| 1.19K         | Indicates operational efficiency and cost control.                 |
+| **Current Date/Time**      | 22-04-2025 18:43:37 | Ensures data is refreshed and report is timely.              |
 
-Clear sales growth trend with seasonal spikes, indicating promotional or holiday periods.
+---
 
-Drop and recovery patterns visible — may align with market cycles or campaigns.
+## 📈 Sales Trend Over Time
+- **Visualization:** Line Graph (2020 to 2024)
+- **Insights:**
+  - Clear sales growth trend with **seasonal spikes**.
+  - **Drop and recovery patterns** align with market cycles or campaigns.
+
+---
 
 ## 🛍️ Sales by Method
-Online contributes the most (32.85%) followed by In-store and Outlet.
+- **Top Channel:** Online (32.85%)
+- **Other Channels:** In-store, Outlet
+- **Insight:** Significant shift toward **digital sales**, reflecting consumer behavior trends.
 
-Indicates a shift toward digital sales channels, reflecting consumer behavior.
+---
 
 ## 🏪 Sales by Retailer
-Top performers: Walmart, Amazon, Kohl’s and Foot Locker.
+- **Top Retailers:** Walmart, Amazon, Kohl’s, Foot Locker
+- **Insight:** Balanced multi-retail strategy driving consistent sales across partners.
 
-Reflects multi-retail strategy effectiveness, with a balanced distribution.
+---
 
 ## 📦 Sales by Product Category
-Men’s and Women’s Sportswear dominate sales.
+- **Top Categories:** Men’s and Women’s Sportswear
+- **Insight:** Opportunity to expand **Accessories** and niche segments.
 
-Opportunity to analyze and grow other product segments (e.g., Accessories).
+---
 
 ## 🗺️ Regional & City-wise Analysis
-Sales concentrated in Northeast and South regions of the U.S.
+- **Sales Concentration:** Northeast and South U.S.
+- **Anomalies:** Alaska and others indicating **potential niche or new markets**
+- **Visualization:** Interactive Geo Map for North America
 
-Certain states (e.g., Alaska) show anomalies — potentially new or niche markets.
+---
 
-Interactive map shows coverage across North America and beyond.
+## 🎤 Interview Questions & Answers (Data Visualization Focus)
 
-## Interview questions
-1. What is the importance of data visualization?
-   
-Data visualization helps convert complex data into an understandable and visually appealing format. It makes it easier to:
+### 1. What is the importance of data visualization?
+Data visualization transforms complex data into clear visuals, helping to:
+- Spot trends and patterns
+- Make informed decisions
+- Communicate insights effectively
+- Discover hidden insights
 
-Spot trends and patterns.
+---
 
-Communicate findings effectively.
+### 2. When do you use a pie chart vs bar chart?
 
-Support better decision-making.
+- **Pie Chart:**
+  - Shows part-to-whole relationships.
+  - Ideal for **2–5 categories**.
+  - _Example: Market share by brand._
 
-Reveal hidden insights quickly.
+- **Bar Chart:**
+  - Compares values across multiple categories.
+  - Better for **detailed comparison**.
+  - _Example: Sales by region or product._
 
-2. When do you use a pie chart vs bar chart?
-   
-Pie Chart:
+---
 
-Used to show part-to-whole relationships, ideal for categorical data with few segments (2–5).
+### 3. How do you make visualizations more engaging?
+- Use clear **titles**, **labels**, and **legends**
+- Highlight key points with **colors/annotations**
+- Add **interactivity** (filters, hover effects)
+- Choose the **right chart type**
+- Remove clutter; focus on **simplicity**
 
-Example: Market share by company.
+---
 
-Bar Chart:
+### 4. What is data storytelling?
+Data storytelling is the blend of **data**, **visuals**, and **narrative** to guide users toward a conclusion or actionable insight. It enhances decision-making and audience engagement.
 
-Used to compare quantities across categories, especially when you have many categories or need exact comparisons.
+---
 
-Example: Sales per region or product.
+### 5. How do you avoid misleading visualizations?
+- Start axes at zero (especially for bar charts)
+- Use **proportional sizes**, avoid 3D
+- Show **full data context**
+- Label clearly and avoid **ambiguous colors**
+- Represent **time trends accurately**
 
-3. How do you make visualizations more engaging?
-   
-Use clear titles, labels, and legends.
+---
 
-Highlight key points using color or annotations.
+### 6. What are best practices in dashboard design?
+- Keep it **simple** and goal-focused
+- Group related visuals logically
+- Maintain **consistent formatting**
+- Highlight **key KPIs**
+- Enable **filters/slicers**
+- Optimize for **performance and responsiveness**
 
-Use interactive elements (in tools like Power BI or Tableau).
+---
 
-Choose the right chart type for the data.
+### 7. What tools have you used for visualization?
+- **Power BI** – Interactive, real-time dashboards
+- **Tableau** – Advanced visual storytelling
+- **Matplotlib / Seaborn / Plotly (Python)** – Custom visualization with code
+- **Excel** – Quick data exploration and charting
 
-Avoid clutter; focus on clarity and simplicity.
+---
 
-4. What is data storytelling?
-   
-Data storytelling is the practice of combining data, visuals, and narrative to effectively communicate insights and drive action. It helps guide the audience through the data to a conclusion or decision.
+> 👨‍💻 _This dashboard and the associated insights are part of a data-driven approach to understanding brand performance and empowering better business decisions through visual analytics._
 
-6. How do you avoid misleading visualizations?
-   
-Start axes at zero (especially for bar charts).
-
-Use proportional sizes in visuals (avoid 3D charts).
-
-Don’t cherry-pick data; present full context.
-
-Label charts clearly and avoid ambiguous color scales.
-
-Ensure accurate representation of trends over time.
-
-6. What are best practices in dashboard design?
-   
-Keep it simple and focused on the audience’s goals.
-
-Group related visuals together.
-
-Use consistent colors, fonts, and formatting.
-
-Make KPIs prominent.
-
-Include filters or slicers for interactivity.
-
-Ensure responsiveness and good performance.
-
-7. What tools have you used for visualization?
-   
-Some common tools I’ve used include:
-
-Power BI – For interactive business dashboards.
-
-Tableau – For advanced, visually rich dashboards.
-
-Matplotlib / Seaborn / Plotly (Python) – For coding-based custom visualizations.
-
-Excel – For quick charts and basic dashboards.
