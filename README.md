@@ -43,6 +43,7 @@ Interactive map shows coverage across North America and beyond.
 
 ## Interview questions
 1. What is the importance of data visualization?
+   
 Data visualization helps convert complex data into an understandable and visually appealing format. It makes it easier to:
 
 Spot trends and patterns.
@@ -54,17 +55,21 @@ Support better decision-making.
 Reveal hidden insights quickly.
 
 2. When do you use a pie chart vs bar chart?
+   
 Pie Chart:
+
 Used to show part-to-whole relationships, ideal for categorical data with few segments (2–5).
 
 Example: Market share by company.
 
 Bar Chart:
+
 Used to compare quantities across categories, especially when you have many categories or need exact comparisons.
 
 Example: Sales per region or product.
 
 3. How do you make visualizations more engaging?
+   
 Use clear titles, labels, and legends.
 
 Highlight key points using color or annotations.
@@ -76,9 +81,11 @@ Choose the right chart type for the data.
 Avoid clutter; focus on clarity and simplicity.
 
 4. What is data storytelling?
+   
 Data storytelling is the practice of combining data, visuals, and narrative to effectively communicate insights and drive action. It helps guide the audience through the data to a conclusion or decision.
 
-5. How do you avoid misleading visualizations?
+6. How do you avoid misleading visualizations?
+   
 Start axes at zero (especially for bar charts).
 
 Use proportional sizes in visuals (avoid 3D charts).
@@ -90,6 +97,7 @@ Label charts clearly and avoid ambiguous color scales.
 Ensure accurate representation of trends over time.
 
 6. What are best practices in dashboard design?
+   
 Keep it simple and focused on the audience’s goals.
 
 Group related visuals together.
@@ -103,6 +111,7 @@ Include filters or slicers for interactivity.
 Ensure responsiveness and good performance.
 
 7. What tools have you used for visualization?
+   
 Some common tools I’ve used include:
 
 Power BI – For interactive business dashboards.
